@@ -11,5 +11,8 @@ class DefaultsController extends Controller
 		return view('defaults.index');
 	}
 
-			
+	public function goodsAttributeCombination()
+	{
+		return view('defaults.goods_attribute_combination');
+	}		
 }

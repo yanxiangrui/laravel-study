@@ -15,6 +15,8 @@ Auth::routes();
 
 Route::get('/', 'DefaultsController@index')->name('defaults.index');
 
+Route::get('combination', 'DefaultsController@goodsAttributeCombination')->name('defaults.combination');
+
 # markdown composer 
 Route::get('markdowns', 'MarkdownsController@index')->name('makerdowns.index');
 
